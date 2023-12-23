@@ -1,0 +1,59 @@
+.css-icono-youtube {
+    height: auto;
+    width: 4%;
+    border: none;
+}
+
+.titulo {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 300px;
+    line-height: 24px;
+}
+
+.parrafo-uno {
+    margin-top: 5px;
+
+}
+
+.parrafo-tres {
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 50px;
+
+
+}
+
+.color-parrafo {
+    color: #606060;
+    font-size: 14px;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.final-parrafo {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 14px;
+
+}
+
+.css-apple-icon {
+    height: auto;
+    width: 3%;
+}
+
+.css-subrayado {
+    cursor: pointer;
+}
+
+.css-subrayado:hover {
+    text-decoration: underline;
+}
