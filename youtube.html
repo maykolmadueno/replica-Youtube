@@ -23,18 +23,27 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-button">
                 <img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-button">
                 <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
             <!-- right-section -->
-            <img class="upload-icon" src="icons/upload.svg" alt="">
-            <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
             <div class="notification-icon-container">
                 <img class="notifications-icon" src="icons/notifications.svg" alt="">
                 <div class="notifications-count" >3</div>
+                <div class="tooltip">notifications</div>
             </div>
             <img class="current-user-picture" src="channel-pictures/my-channel.jpeg" alt="">
         </div>
@@ -42,29 +51,29 @@
     </div>
     <div class="sidebar">
       
-        <div class="inside-sidebar">
-            <img class="icon-home icon-sidebar " src="icons/home.svg" alt="">
-            <label class="label-icon" for="">Home</label>
+        <div class="sidebar-link">
+            <img class="icon-home " src="icons/home.svg" alt="">
+            <div class="label-icon" >Home</div>
         </div>
-        <div class="inside-sidebar">
-            <img class="icon-explore icon-sidebar" src="icons/explore.svg" alt="">
-            <label class="label-icon" for="" style="">Explore</label>
+        <div class="sidebar-link">
+            <img class="icon-explore" src="icons/explore.svg" alt="">
+            <div class="label-icon"  >Explore</div>
         </div>
-        <div class="inside-sidebar">
-            <img class="icon-subscriptions icon-sidebar" src="icons/subscriptions.svg" alt="">
-            <label class="label-icon" for="">Subscriptions</label>
+        <div class="sidebar-link">
+            <img class="icon-subscriptions" src="icons/subscriptions.svg" alt="">
+            <div class="label-icon" >Subscriptions</div>
         </div>
-        <div class="inside-sidebar">
-            <img class="icon-originals icon-sidebar" src="icons/originals.svg" alt="">
-            <label class="label-icon" for="">Originals</label>
+        <div class="sidebar-link">
+            <img class="icon-originals" src="icons/originals.svg" alt="">
+            <div class="label-icon" >Originals</div>
         </div>
-        <div class="inside-sidebar">
-            <img class="icon-youtube-music icon-sidebar" src="icons/youtube-music.svg" alt="">
-            <label class="label-icon" for="">Youtube Music</label>
+        <div class="sidebar-link">
+            <img class="icon-youtube-music" src="icons/youtube-music.svg" alt="">
+            <div class="label-icon" >Youtube Music</div>
         </div>
-        <div class="inside-sidebar">
-            <img class="icon-library icon-sidebar" src="icons/library.svg" alt="">
-            <label class="label-icon" for="">Library</label>
+        <div class="sidebar-link">
+            <img class="icon-library" src="icons/library.svg" alt="">
+            <div class="label-icon" >Library</div>
         </div>
     </div>
 
@@ -178,7 +187,7 @@
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
-                <div class="video-time" for="">11:17</div>
+                <div class="video-time" >11:17</div>
             </div>
     
             <div class="video-info-grid">

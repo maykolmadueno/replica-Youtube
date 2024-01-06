@@ -3,32 +3,30 @@
     left: 0;
     bottom: 0;
     top: 55px;
+    background-color: white;
     width: 72px;
-    border-right-color: rgba(128,128,128,0.05);
-    border-right-width: 1px;
-    border-right-style: solid;
-     
-    
+    z-index:200 ;  
+    padding-top: 5px;   
     
 }
-.inside-sidebar{
-   align-items: center;
-   justify-content: center;
+.sidebar-link{
+   height: 74px;
    display: flex;
-   flex-direction: column;
-   align-items: center;
    justify-content: center;
-   padding-top: 20px;
-   padding-bottom: 20;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
 }
-.inside-sidebar:hover{
+.sidebar-link:hover{
     background-color: rgba(128,128,128,0.15)
 }
-.icon-sidebar{
-    width:24px;
+.sidebar-link img{
+    height:24px;
+    margin-bottom: 4px;
 }
-.label-icon{
+
+.sidebar-link div{
+    font-family: Roboto,Arial;
     font-size: 10px;
-    padding-top: 5px;
-    font-family: roboto,arial;
+
 }
